@@ -1,0 +1,35 @@
+{
+  "name": "noot",
+  "version": "0.0.1",
+  "main": "src/app.js",
+  "private": true,
+  "scripts": {
+    "android-setup-port": "adb reverse tcp:8081 tcp:8080",
+    "bundle": "rnws bundle",
+    "test": "eslint src",
+    "start": "rnws start"
+  },
+  "dependencies": {
+    "flux": "*",
+    "keymirror": "*",
+    "moment": "*",
+    "react": "^0.14.3",
+    "react-native": "0.14.2",
+    "react-native-vector-icons": "*",
+    "react-time": "*"
+  },
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-eslint": "*",
+    "babel-loader": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*",
+    "babel-preset-stage-1": "*",
+    "eslint": "*",
+    "eslint-loader": "*",
+    "eslint-plugin-react": "*",
+    "react-native-webpack-server": "^0.8.1",
+    "webpack": "*",
+    "webpack-dev-server": "*"
+  }
+}
